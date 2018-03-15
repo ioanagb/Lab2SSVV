@@ -44,7 +44,7 @@ public class StoreUI {
 
         Product p = new Product(pCode,pName,pCategory,pQunatity);
         ctrl.addProduct(p);
-        System.out.println("Product Added");
+        //System.out.println("Product Added");
     }
 
     public void DisplayCategory()
