@@ -12,7 +12,7 @@ public class Product {
     private int code=0;
     private String name=null;
     private String category=null;
-    private String supplier=null;
+    //private String supplier=null;
     private int quantity=0;
 
     public Product(int code, String name, String category, int quantity) {
@@ -82,8 +82,8 @@ public class Product {
         return "Product [code=" + code + ", name=" + name + ", category="
                 + category + ", quantity=" + quantity + "]";
     }
-    public String getSupplier() {
-        return supplier;
-    }
-    public void setSupplier(String supplier) {this.supplier = supplier;}
+    //public String getSupplier() {
+//        return supplier;
+//    }
+//    public void setSupplier(String supplier) {this.supplier = supplier;}
 }

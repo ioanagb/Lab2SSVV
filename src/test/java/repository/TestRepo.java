@@ -132,7 +132,7 @@ public class TestRepo extends TestCase{
 
     @Test
     public void testGetAll(){
-        storeRepository = new StoreRepository("productsTest.txt");
+        storeRepository = new StoreRepository("productsTest1.txt");
         ArrayList<Product> products = storeRepository.getAllProducts();
         assertEquals(5,products.size());
     }
@@ -142,5 +142,12 @@ public class TestRepo extends TestCase{
         storeRepository = new StoreRepository("productsTest.txt");
         ArrayList<Product> products = storeRepository.getProductsCategory("aliment");
         assertEquals(3,products.size());
+    }
+
+    @Test
+    public void testGetByCategory(){
+        storeRepository = new StoreRepository("productsTest.txt");
+        ArrayList<Product> products = storeRepository.getProductsCategory("category");
+        assertEquals(0,products.size());
     }
 }

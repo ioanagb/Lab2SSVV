@@ -4,3 +4,5 @@
 1111 portocala aliment 12
 2310 eggplant veggie 10
 9327 p c 1
+8197 p c 1
+8807 p c 1
