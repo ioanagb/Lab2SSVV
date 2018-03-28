@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dbdad717-55bf-4431-b776-91e15d75a8eb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/productsTest.txt" afterPath="$PROJECT_DIR$/productsTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/model/Product.java" afterPath="$PROJECT_DIR$/src/main/java/model/Product.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/repository/TestRepo.java" afterPath="$PROJECT_DIR$/src/test/java/repository/TestRepo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -836,8 +833,16 @@
       <workItem from="1521008517311" duration="775000" />
       <workItem from="1521009445851" duration="6425000" />
       <workItem from="1521060599987" duration="5185000" />
-      <workItem from="1522179849386" duration="7939000" />
+      <workItem from="1522179849386" duration="7985000" />
     </task>
+    <task id="LOCAL-00001" summary="added lab 3">
+      <created>1522217489841</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522217489841</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -873,7 +878,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20324000" />
+    <option name="totallyTimeSpent" value="20370000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="539" y="14" width="1053" height="907" extended-state="0" />
@@ -915,6 +920,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added lab 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="added lab 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
