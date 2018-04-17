@@ -150,4 +150,25 @@ public class TestRepo extends TestCase{
         ArrayList<Product> products = storeRepository.getProductsCategory("category");
         assertEquals(0,products.size());
     }
+
+    @Test
+    public void testGetByInvalidCategoryWithSpecialCharacter(){
+        storeRepository = new StoreRepository("productsTest.txt");
+        ArrayList<Product> products = storeRepository.getProductsCategory("*");
+        assertEquals(0,products.size());
+    }
+
+    @Test
+    public void testGetByInvalidCategoryAsNo(){
+        storeRepository = new StoreRepository("productsTest.txt");
+        ArrayList<Product> products = storeRepository.getProductsCategory("23");
+        assertEquals(0,products.size());
+    }
+
+    @Test
+    public void testGetByInvalidCategory(){
+        storeRepository = new StoreRepository("productsTest.txt");
+        ArrayList<Product> products = storeRepository.getProductsCategory("23*");
+        assertEquals(0,products.size());
+    }
 }
