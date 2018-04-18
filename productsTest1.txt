@@ -3,3 +3,6 @@
 456 laptop it 20
 1111 portocala aliment 12
 2310 eggplant veggie 10
+9153 doll toys 10
+7517 dress fashion 10
+9104 gun hunting 10
